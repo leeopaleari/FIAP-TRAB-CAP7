@@ -1,0 +1,73 @@
+
+.form-signin {
+  height: 100%;
+  margin: 5em auto 0;
+  max-width: 330px;
+  padding: 15px;
+  background-color: var(--background-light);
+  border-radius: 10px;
+}
+
+.form-title {
+  color: #5969bb;
+}
+
+.social-button {
+  cursor: pointer;
+}
+
+.social-button .bi {
+  font-size: 2.2em;
+}
+
+.social-button p {
+  color: #ccc;
+  font-size: 1em;
+}
+
+.social-button .bi-google {
+  color: #db4437;
+}
+
+.social-button .bi-facebook {
+  color: #4267b2;
+}
+
+.forgot-password {
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+.divider {
+  color: #3e477c;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.divider > span {
+  position: relative;
+  display: inline-block;
+}
+
+.divider > span::before,
+.divider > span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 200px;
+  height: 1px;
+  background-color: #3e477c;
+}
+
+.divider >span::before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.divider >span::after {
+  left: 100%;
+  margin-left: 15px;
+}
+

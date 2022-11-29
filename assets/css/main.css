@@ -1,0 +1,30 @@
+:root {
+  --background-base: #16141f;
+  --background-light: #211f34;
+  --text-light: #85848f;
+}
+
+body {
+  background-color: var(--background-base);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.card {
+  background-color: var(--background-light);
+  border: solid 2px rgba(89, 105, 187, 0.1);
+  color: var(--text-light) !important;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title i {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+

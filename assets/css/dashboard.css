@@ -1,0 +1,74 @@
+header {
+  background-color: #211f34;
+  padding: 5px 20px;
+}
+
+header i {
+  color: #5969bb;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.header__menu i::before {
+  transition: background-color 0.2s;
+}
+
+.header__menu > i:hover::before {
+  border-radius: 5px;
+  background-color: #353252;
+}
+
+aside ul {
+  width: 250px;
+  height: calc(100vh - 58px);
+  background-color: #211f34;
+  border-top: solid 1px #181625;
+  color: white;
+}
+
+aside .nav-item .nav-link {
+  color: var(--text-light);
+}
+aside .nav-item:hover {
+  background-color: #2d2a46;
+}
+
+.item__icon {
+  margin-right: 15px;
+  font-size: 2em;
+}
+
+.bill-group .bill-item {
+  display: flex;
+}
+
+.bill-item + .bill-item {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(89, 105, 187, 0.8);
+}
+.item__title {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.item__value {
+  margin-left: auto;
+}
+
+.item__amount {
+  font-weight: bold;
+  text-align: end;
+}
+
+.item__date {
+  color: var(--text-light);
+}
+
+.add {
+  color: #159c43;
+}
+
+.remove {
+  color: #9e271d;
+}
